@@ -29,7 +29,7 @@ public class Filling : MonoBehaviour
         slider.value = 0;
         counter = 0;
         setScore(1999);  //you can optimize score
-        setFillSpeed(10); // you can optimize the filling speed of the score bar
+        setFillSpeed(1); // you can optimize the filling speed of the score bar
         if(scoreValue > slider.maxValue)
 		{
             setScore((int)slider.maxValue);
